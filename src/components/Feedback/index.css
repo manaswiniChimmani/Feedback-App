@@ -1,0 +1,49 @@
+/* Write your CSS code here. */
+.bg-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffebeb, #ffc0bb);
+  height: 100vh;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  border-radius: 5px;
+}
+.img1 {
+  width: 70px;
+}
+.h1 {
+  color: #0f172a;
+  font-size: 28px;
+}
+.p1 {
+  color: #1e293b;
+  font-size: 18px;
+  text-align: center;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+.li {
+  list-style: none;
+  margin-top: 40px;
+}
+.img2 {
+  width: 90px;
+}
+.feedback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn {
+  background-color: #ffffff;
+  border-width: 0px;
+}
